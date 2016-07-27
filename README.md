@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Locomotive](https://github.com/locomotivecms/engine) on [Heroku](http://heroku.com)
 
 Locomotive is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client. Visit the project's website at <http://locomotive.works/>, or read the docs on <https://locomotive-v3.readme.io/>.
@@ -39,3 +40,8 @@ If you have problems, check the [official documentation](https://locomotive-v3.r
 
 
 Copyright (c) 2015 NoCoffee, released under the [MIT license](./LICENSE)
+=======
+This is an example of using the geo complete jquery plugin, modified for UK addresses.
+
+- **https://ubilabs.github.io/geocomplete/
+>>>>>>> c168735592dbe242c65bbd318b311b6d83ab1cb6
