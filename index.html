@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Complete Example</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="row">
+    <div class="large-12 columns">
+        <h3>Geo Complete Example</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-12 columns">
+        <div class="row">
+            <div class="medium-3 columns"><label>Search for an address:</label></div>
+            <div class="medium-9 columns"><input type="text" class="geocomplete" placeholder="Start typing postcode...">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="address">
+
+    <div class="row">
+        <div class="medium-9 medium-offset-3 columns">
+            <input type="text" id="house_no" name="house_no" placeholder="House number or name">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-9 medium-offset-3 columns">
+            <input type="text" id="line_1" name="line_1" placeholder="Line 1" data-geo="route">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-9 medium-offset-3 columns">
+            <input type="text" id="line_2" name="line_2" placeholder="Line 2">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-9 medium-offset-3 columns">
+            <input type="text" id="locality" name="locality" placeholder="Locality">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-9 medium-offset-3 columns">
+            <input type="text" id="town" name="town" placeholder="Town" data-geo="postal_town">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-9 medium-offset-3 columns">
+            <input type="text" id="county" name="county" placeholder="County" data-geo="administrative_area_level_2">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-9 medium-offset-3 columns">
+            <input type="text" id="postcode" name="postcode" placeholder="Postcode" data-geo="postal_code">
+        </div>
+    </div>
+
+</div>
+
+
+<script src="//maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBS3RaYYt9IxHwtrbem-aTNMSjRimwOaII"></script>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/geocomplete-modified.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
