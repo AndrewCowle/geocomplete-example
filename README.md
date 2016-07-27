@@ -1,18 +1,17 @@
-<<<<<<< HEAD
-# [Locomotive](https://github.com/locomotivecms/engine) on [Heroku](http://heroku.com)
+## jQuery Geocomplete example
 
-Locomotive is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client. Visit the project's website at <http://locomotive.works/>, or read the docs on <https://locomotive-v3.readme.io/>.
+This is a modified version of the original jQuery Geocomplete plugin to support UK addresses.
 
-## Deploying on Heroku
-
-To get your own Locomotive running on Heroku, click the button below:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/drewski85/locomotive-codeco.git)
-
-Follow the steps and you will be up and running in no time!
-
-### URLS
+### Demo
 
 - **https://cdn.rawgit.com/drewski85/geocomplete-example/master/index.html
 
+### Original Plugin
+
 - **https://ubilabs.github.io/geocomplete/
+
+### Google API Keys
+
+You will need a API key from Google to run this on your own application
+
+- **https://developers.google.com/maps/documentation/javascript/get-api-key
